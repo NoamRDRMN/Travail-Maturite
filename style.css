@@ -1767,53 +1767,19 @@ body {
    NUMÉRO 03
 
 \========================= */
-
-
-
 .gallery-photo-third::before {
-
   content: "03";
-
-
-
   position: absolute;
-
-
-
   top: -15px;
-
   left: 22px;
-
-
-
   padding: 0 10px;
-
-
-
   background: #0a0a0a;
-
-
-
   font-size: 18px;
-
   font-weight: 800;
-
-
-
   letter-spacing: -1px;
-
-
-
   color: rgba(245, 245, 245, 0.28);
-
-
-
   z-index: 2;
-
 }
-
-
-
 
 
 /* =========================
@@ -1822,22 +1788,11 @@ body {
 
 \========================= */
 
-
-
 .gallery-main-photo {
-
   display: block;
-
-
-
   width: 100%;
-
   height: auto;
-
 }
-
-
-
 
 
 /* =========================
@@ -1848,26 +1803,12 @@ body {
 
 \========================= */
 
-
-
 .gallery-inside-separator {
-
   width: 100%;
-
-
-
   margin-top: 12px;
-
-  padding-top: 12px;
-
-
-
+  padding-top: 12px
   border-top: 1px solid rgba(255, 255, 255, 0.10);
-
 }
-
-
-
 
 
 /* =========================
@@ -1876,90 +1817,35 @@ body {
 
 \========================= */
 
-
-
 .gallery-duo-top {
-
   display: grid;
-
-
-
   grid-template-columns:
-
     minmax(0, 1fr)
-
     1px
-
     minmax(0, 1fr);
-
-
-
   gap: 12px;
-
-
-
   width: 100%;
-
-
-
   align-items: start;
-
 }
-
-
 
 .gallery-duo-item {
-
   width: 100%;
-
-
-
   min-width: 0;
-
-
-
   overflow: visible;
-
 }
-
-
 
 .gallery-duo-item img {
-
   display: block;
-
-
-
   width: 100%;
-
   height: auto;
-
 }
-
-
-
-
 
 /* SÉPARATION VERTICALE */
-
-
-
 .gallery-duo-separator {
-
   align-self: stretch;
-
-
-
   width: 1px;
-
-
-
   background: rgba(255, 255, 255, 0.10);
-
 }
-
-
-
 
 
 /* =========================
@@ -1968,48 +1854,20 @@ body {
 
 \========================= */
 
-
-
 .gallery-duo-large {
-
   position: relative;
-
-
-
   width: 100%;
-
-
-
   margin-top: 12px;
-
   padding-top: 12px;
-
-
-
   border-top: 1px solid rgba(255, 255, 255, 0.10);
-
-
-
   overflow: hidden;
-
 }
-
-
 
 .gallery-duo-large img {
-
   display: block;
-
-
-
   width: 100%;
-
   height: auto;
-
 }
-
-
-
 
 
 /* =========================
@@ -2018,58 +1876,23 @@ body {
 
 \========================= */
 
-
-
 .gallery-photo-caption {
-
   display: flex;
-
-
-
   align-items: center;
-
   justify-content: space-between;
-
-
-
   gap: 16px;
-
-
-
   margin-top: 12px;
-
   padding-top: 12px;
-
-
-
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-
-
-
   font-size: 10px;
-
   font-weight: 700;
-
-
-
   letter-spacing: 3px;
-
-
-
   color: rgba(245, 245, 245, 0.5);
-
 }
-
-
 
 .gallery-photo-caption span:first-child {
-
   color: rgba(245, 245, 245, 0.25);
-
 }
-
-
-
 
 
 /* =========================
@@ -2077,409 +1900,185 @@ body {
    MOBILE
 
 \========================= */
-
-
-
 @media (max-width: 700px) {
 
 
-
   /* PAGE PRINCIPALE */
-
-
-
   .hero-content {
-
     transform: translateY(-7vh);
-
   }
-
-
 
   .hero-content h1 {
-
     font-size: 16vw;
-
     letter-spacing: -3px;
-
   }
-
-
 
   .subtitle {
-
     letter-spacing: 3px;
-
   }
-
-
 
   .sports {
-
     font-size: 10px;
-
     letter-spacing: 3px;
-
   }
-
-
 
   .hero::after {
-
     display: none;
-
   }
-
-
-
 
 
   /* MENU SPORTS */
-
-
-
   .sports-menu {
-
     padding: 60px 20px;
-
   }
-
-
 
   .sport-box {
-
     min-height: 160px;
-
     padding: 30px;
-
   }
-
-
 
   .sport-box h2 {
-
     font-size: 12vw;
-
     letter-spacing: -2px;
-
   }
-
-
 
   .sport-arrow {
-
     right: 25px;
-
     font-size: 25px;
-
   }
-
-
-
 
 
   /* PAGE SPORT */
-
-
-
   .sport-page-header::after {
-
     height: 65px;
-
   }
-
-
 
   .sport-page-header::before {
-
     height: 60%;
-
     bottom: 0;
-
   }
-
-
 
   .sport-page-title {
-
     gap: 15px;
-
     transform: translateY(-11vh);
-
   }
-
-
 
   .sport-page-title h1 {
-
     font-size: 16vw;
-
     letter-spacing: -4px;
-
   }
-
-
 
   .page-number {
-
     font-size: 8vw;
-
   }
-
-
-
+  
   .topbar-title {
-
     height: 65px;
-
     gap: 10px;
-
   }
-
-
 
   .topbar-title span {
-
     font-size: 16px;
-
   }
-
-
 
   .topbar-title strong {
-
     font-size: 24px;
-
     letter-spacing: 1.5px;
-
   }
-
-
 
   .back-button {
-
     top: 32.5px;
-
-
-
     font-size: 9px;
-
-
-
     letter-spacing: 2px;
-
   }
-
-
 
   .topbar-project {
-
     top: 32.5px;
-
     right: 20px;
-
-
-
     font-size: 9px;
-
-
-
     letter-spacing: 2px;
-
   }
-
-
-
-
+  
 
   /* GALERIE */
-
-
-
   .sport-gallery {
-
     padding-left: 20px;
-
     padding-right: 20px;
-
   }
-
-
 
   .sport-intro {
-
     margin-top: -7vh;
-
-
-
     padding: 0;
-
   }
-
-
 
   .sport-intro-label {
-
     font-size: 13px;
-
-
-
     letter-spacing: 2.5px;
-
-
-
     margin-bottom: 18px;
-
   }
-
-
 
   .sport-intro-line {
-
     margin-bottom: 24px;
-
   }
-
-
 
   .sport-intro-text {
-
     max-width: 100%;
-
-
-
     font-size: 17px;
-
-
-
     line-height: 1.6;
-
   }
-
-
-
 
 
   /* GROUPES */
-
-
-
   .gallery-photo-first,
-
   .gallery-photo-second,
-
   .gallery-photo-third {
-
     padding: 10px;
-
   }
-
-
 
   .gallery-photo-first {
-
     margin: 100px auto 0;
-
   }
-
-
 
   .gallery-photo-second,
-
   .gallery-photo-third {
-
     margin: 75px auto 0;
-
   }
-
-
-
+  
   .gallery-photo-first::before,
-
   .gallery-photo-second::before,
-
   .gallery-photo-third::before {
-
     top: -11px;
-
     left: 14px;
-
-
-
     padding: 0 7px;
-
-
-
     font-size: 14px;
-
   }
-
-
-
 
 
   /* ESPACES INTERNES */
-
-
-
   .gallery-inside-separator {
-
     margin-top: 8px;
-
     padding-top: 8px;
-
   }
-
-
 
   .gallery-duo-top {
-
     gap: 8px;
-
   }
-
-
-
+  
   .gallery-duo-large {
-
     margin-top: 8px;
-
     padding-top: 8px;
-
   }
 
-
-
-
-
+  
   /* LÉGENDE */
-
-
-
   .gallery-photo-caption {
-
     margin-top: 8px;
-
     padding-top: 8px;
-
-
-
     gap: 10px;
-
-
-
     font-size: 8px;
-
-
-
     letter-spacing: 2px;
-
   }
-
 }
-
-
-
 
 
 /* =========================================================
@@ -2487,152 +2086,53 @@ body {
    GROUPE 04 — QUATRE PHOTOS EN GRILLE 2 × 2
 
 \========================================================= */
-
-
-
 .gallery-photo-fourth {
-
   position: relative;
-
-
-
   width: 100%;
-
-
-
   margin: 120px auto 0;
-
   padding: 18px;
-
-
-
   border: 1px solid rgba(255, 255, 255, 0.14);
-
-
-
   background: #0a0a0a;
-
 }
-
-
-
 
 
 /* NUMÉRO 04 */
-
-
-
 .gallery-photo-fourth::before {
-
   content: "04";
-
-
-
   position: absolute;
-
-
-
   top: -15px;
-
   left: 22px;
-
-
-
   padding: 0 10px;
-
-
-
   background: #0a0a0a;
-
-
-
   font-size: 18px;
-
   font-weight: 800;
-
-
-
   letter-spacing: -1px;
-
-
-
   color: rgba(245, 245, 245, 0.28);
-
-
-
   z-index: 2;
-
 }
-
-
-
-
 
 /* GRILLE DE QUATRE PHOTOS */
-
-
-
 .gallery-square-grid {
-
   display: grid;
-
-
-
   grid-template-columns: repeat(2, minmax(0, 1fr));
-
-
-
   gap: 12px;
-
-
-
   width: 100%;
-
-
-
   align-items: stretch;
-
 }
-
-
-
 
 
 /* CADRE DE CHAQUE IMAGE */
-
-
-
 .gallery-square-item {
-
   position: relative;
-
-
-
   width: 100%;
-
   min-width: 0;
-
-
-
   aspect-ratio: 4 / 3;
-
-
-
   overflow: hidden;
-
-
-
   background: #111;
-
 }
 
 
-
-
-
 /* IMAGES DU GROUPE 04 */
-
-
 
 .gallery-square-item img {
 
@@ -2650,54 +2150,23 @@ body {
 
 }
 
-
-
-
-
 /* GROUPE 04 SUR MOBILE */
-
-
-
 @media (max-width: 700px) {
-
-
-
   .gallery-photo-fourth {
-
     margin: 75px auto 0;
-
-
-
     padding: 10px;
-
   }
-
-
-
+  
   .gallery-photo-fourth::before {
-
     top: -11px;
-
     left: 14px;
-
-
-
     padding: 0 7px;
-
-
-
     font-size: 14px;
-
   }
-
-
-
+  
   .gallery-square-grid {
-
     gap: 8px;
-
   }
-
 }
 
 
@@ -2717,7 +2186,7 @@ body {
           rgba(10, 10, 10, 0.55) 45%,
           rgba(10, 10, 10, 0.15) 70%,
           rgba(10, 10, 10, 0.20) 100%),
-        url("images/PHOTO30.jpg");
+        url("PHOTO30.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -2746,7 +2215,6 @@ body {
 
 /* =========================================================
    SKI NAUTIQUE — IMAGES PROPRES À LA SOUS-PAGE
-   (sans modifier les styles existants du ski alpin)
 ========================================================= */
 
 /* Photo d’en-tête de la page Ski Nautique */
@@ -2768,7 +2236,7 @@ body {
       rgba(10, 10, 10, 0.02) 92%,
       rgba(10, 10, 10, 0) 100%
     ),
-    url("images/NAUTIQUE10.jpg");
+    url("NAUTIQUE10.jpg");
 }
 
 /* Photo finale de la page Ski Nautique */
@@ -2781,5 +2249,5 @@ body {
       rgba(10, 10, 10, 0.55) 45%,
       rgba(10, 10, 10, 0.15) 70%,
       rgba(10, 10, 10, 0.20) 100%),
-    url("images/NAUTIQUE30.jpg");
+    url("NAUTIQUE30.jpg");
 }
